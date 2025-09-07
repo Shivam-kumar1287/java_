@@ -4,3 +4,9 @@ for i in student:
 print(student.keys())
 print(student.values())
 print(student.items())
+
+#setdefault
+student.setdefault("name","Shivam")
+print(student)
+student.setdefault("address","New Delhi")
+print(student)
