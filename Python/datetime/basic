@@ -1,0 +1,65 @@
+Day
+
+%a → Weekday short (Mon)
+
+%A → Weekday full (Monday)
+
+%w → Weekday num (0=Sun)
+
+%d → Day of month (01–31)
+
+%j → Day of year (001–366)
+
+%U → Week num (Sun first)
+
+%W → Week num (Mon first)
+
+%u → ISO weekday (1=Mon)
+
+Month / Year
+
+%b → Month short (Jan)
+
+%B → Month full (January)
+
+%m → Month num (01–12)
+
+%y → Year short (18)
+
+%Y → Year full (2018)
+
+%C → Century (20)
+
+%G → ISO year (2018)
+
+%V → ISO week num (01–53)
+
+Time
+
+%H → Hour (00–23)
+
+%I → Hour (01–12)
+
+%p → AM/PM
+
+%M → Minute (00–59)
+
+%S → Second (00–59)
+
+%f → Microsecond (000000–999999)
+
+Timezone
+
+%z → UTC offset (+0100)
+
+%Z → Timezone (CST)
+
+Local / Special
+
+%c → Local date+time
+
+%x → Local date
+
+%X → Local time
+
+%% → Literal %
