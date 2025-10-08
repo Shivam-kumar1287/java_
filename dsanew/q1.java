@@ -38,13 +38,11 @@ class UserDatabase {
         initializeSampleData();
     }
 
-    // Add a new user
     public void addUser(User user) {
         userdata.put(user.getId(), user);
         System.out.println("User added successfully: " + user.getName());
     }
 
-    // Get user by ID
     public User getUser(int id) {
         return userdata.get(id);
     }
@@ -59,10 +57,8 @@ public class q1 {
     public static void main(String[] args) {
         UserDatabase db = new UserDatabase();
 
-        // Add new user
         db.addUser(new User(333, "Alice Johnson", "alice.j@example.com"));
 
-        // Get and display existing users
         User user1 = db.getUser(111);
         if (user1 != null) user1.display();
 
