@@ -5,7 +5,7 @@ while True:
     while True:
             amount = float(input("Amount: "))
             quantity = int(input("Quantity: "))
-              total = amount * quantity
+            total = amount * quantity
             repeat = input("Do you want to add more quantity of the same product? (yes/no): ").strip().lower()
             if repeat == 'no':
                 break
