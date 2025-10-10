@@ -1,4 +1,3 @@
-package Question;
 import java.util.Scanner;
 public class digitcount {
     public static void main(String[] args){

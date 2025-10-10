@@ -15,9 +15,3 @@ print("Manual DataFrame:\n", df_manual)
 print("\nColumns:", df_manual.columns)
 
 # Step 3: Load CSV dataset
-dataset_path = r"C:\Users\Shivam\Downloads\train.csv"
-df_csv = pd.read_csv(dataset_path)
-
-print("\nCSV DataFrame:\n", df_csv.head(200))  # print first few rows
-print("\nCSV Columns:", df_csv.columns)
-print("\nCSV Shape:", df_csv.shape)
