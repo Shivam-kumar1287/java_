@@ -58,6 +58,7 @@ print(f"Entire row at [0]: {arr2d[0]}")     # First row
 
 # Additional indexing examples
 print(f"First column: {arr2d[:, 0]}")       # All rows, column 0
+print(arr2d)
 print(f"Slice [0:2, 1:3]:\n{arr2d[0:2, 1:3]}")  # Sub-array
 
 # =============================================================================
