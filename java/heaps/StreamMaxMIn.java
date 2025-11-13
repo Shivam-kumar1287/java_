@@ -13,7 +13,7 @@ public class StreamMaxMIn {
         int num=sc.nextInt();
         maxval=Math.max(maxval,n);
         minval=Math.min(minval,n);
-        System.out.println("currect max"+maxval+"current min "+minval);
+        System  .out.println("currect max"+maxval+"current min "+minval);
     }
     }
 }

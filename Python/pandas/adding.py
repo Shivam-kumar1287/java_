@@ -3,13 +3,13 @@ import sys
 
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David'],
-    'Age': [24, 30, 22, 35],
+      'Age': [24, 30, 22, 35],
     'City': ['New York', 'Los Angeles', 'Chicago', 'Houston'],
     'salary': [70000, 80000, 65000, 90000],
     'performance_score': [88, 92, 85, 95]    
 }
 
-df = pd.DataFrame(data)
+     df = pd.DataFrame(data)
 
 # Ensure Unicode output works in Windows terminal
 print(df)
