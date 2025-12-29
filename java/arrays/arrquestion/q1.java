@@ -1,5 +1,4 @@
-/*
-*1. Program to find the frequency of each element in the array */
+/* 1. Program to find the frequency of each element in the array */
 
 import java.util.*;
 public class q1 {

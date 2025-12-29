@@ -16,11 +16,17 @@ public class MaxHeap {
         int parent = (index - 1) / 2;
 
         // Bubble up (swap with parent while greater)
-        while (index > 0 && heap.get(index) > heap.get(parent)) {
-            Collections.swap(heap, index, parent);
-            index = parent;
-            parent = (index - 1) / 2;
-        }
+        // while (index > 0 && heap.get(index) > heap.get(parent)) {
+        //     Collections.swap(heap, index, parent);
+        //     index = parent;
+        //     parent = (index - 1) / 2;
+        // }
+       while( heap.get(index) < heap.get(index) ){
+        int temp=heap.get(index);
+        heap.set(index,heap.get(parent));
+        heap.set(parent,temp);
+       }
+
     }
 
     // Heapify a subtree at index i
@@ -99,6 +105,10 @@ public class MaxHeap {
             Collections.swap(arr, i, largest);
             heapifyForSort(arr, largest, n);
         }
+    }
+
+    public int peek(){
+        return heap.get(0); 
     }
 
     // Print heap
