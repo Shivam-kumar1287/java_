@@ -9,7 +9,7 @@ data = {
     'performance_score': [88, 92, 85, 95]    
 }
 
-     df = pd.DataFrame(data)
+df = pd.DataFrame(data)
 
 # Ensure Unicode output works in Windows terminal
 print(df)
