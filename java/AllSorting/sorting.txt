@@ -1,0 +1,11 @@
+
+Sort Type	    Best-Case	        Average-Case	    Worst-Case	    Space Complexity	    Ideal Use Case
+Bubble Sort 	O(n)                	O(n²)             	O(n²)	      O(1)	                 Educational tools, small datasets .
+Selection Sort	O(n²)	                O(n²)           	O(n²)	      O(1)                  When memory writes are costly (minimizes swaps) .
+Insertion Sort	O(n)                 	O(n²)	            O(n²)	      O(1)	                Small or partially sorted datasets; building blocks for other algorithms .
+Merge Sort	    O(n log n)	            O(n log n)	        O(n log n)    O(n)	                    Large datasets, stable sorting required, linked lists .
+Quick Sort	    O(n log n)	            O(n log n)	          O(n²)	      O(log n)	                    Large datasets, general-purpose (often fastest in practice) .
+Heap Sort	    O(n log n)	            O(n log n)	        O(n log n)	   O(1)	                    Large datasets when consistent performance and low memory are needed .
+Counting Sort	O(n + k)	            O(n + k)	        O(n + k)	O(n + k)	            Sorting integers with a small, known range (k) .
+Radix Sort	    O(d*(n + k))	        O(d*(n + k))	    O(d*(n + k))	O(n + k)	    Sorting large sets of integers or fixed-length strings .
+Shell Sort	    O(n log n)          	O(n^(3/2))	        O(n²)           	O(1)	                        Medium-sized datasets; a good upgrade from Insertion Sort .
