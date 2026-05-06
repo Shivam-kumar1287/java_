@@ -11,3 +11,4 @@ if a in fruits:
 else:
     print("No",a,"is not present in the list")
 fruits.append("orange")
+print(type(fruits))
